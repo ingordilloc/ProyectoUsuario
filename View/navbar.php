@@ -17,7 +17,7 @@
       <div class="navbar-nav">
         <a class="nav-link active" aria-current="page" href="index.php">Inicio</a>
         <a class="nav-link" href="index.php?action=nosotros">Nosotros</a>
-        <a class="nav-link" href="index.php?action=contacto">Contacto</a>
+        <a class="nav-link" href="index.php?action=contacto">Contactanos</a>
         <?php
         if (!empty($_SESSION['id']) && (!empty($_SESSION['rol']))   )  {
           //Mostrar todas las opciones disponibles
